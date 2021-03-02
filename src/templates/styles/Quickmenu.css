@@ -1,0 +1,35 @@
+.qmn{
+  height: 50px;
+  width: 360px;
+  position: fixed;
+  display: flex;
+  z-index: 1000;
+  background-image: url("../assets/Spieleseite_Layout_Template3.png");
+  border: 1px solid black;
+  align-items: center;
+  box-shadow: 2px 4px 5px rgb(134, 134, 134);
+  top: calc(100% - 50px);
+  margin-left: calc(50% - 180px);
+
+}
+#qmctn{
+  position: relative;
+  padding-bottom: 35px;
+  width: 35px;
+  height: 0px;
+  margin: 0px 11.55px;
+  box-shadow: none;
+  
+}
+
+@media (max-width: 390px) {
+  .qmn{
+    width: 280px;
+    margin-left: calc(50% - 140px);
+  }
+  #qmctn{
+    width: 30px;
+    padding-bottom: 30px; 
+    margin: 0 7.3px;
+  }
+}

@@ -1,0 +1,25 @@
+.ipt{
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  height: 40px;
+  border: none;
+  color: black;
+  font-family: inherit;
+  transition-duration: 500ms;
+  border: 1px solid black;
+  width: 160px;
+}
+.ipt:focus{
+  outline: none;
+}
+.ipt:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+@media(max-width: 400px){
+  .ipt{
+    width: 80px;
+  }
+}

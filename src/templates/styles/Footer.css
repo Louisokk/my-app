@@ -1,0 +1,23 @@
+.ftr{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(216, 216, 216);
+  border: 1px solid black;
+  text-align: center;
+  bottom: 0;
+  margin-top: 20vh;
+}
+.smbtn{
+  border: none;
+  background-color: transparent;
+  margin: 50px 10px 50px 10px;
+  cursor: pointer;
+  transition-duration: 100ms;
+  outline: none;
+}
+.smbtn:active{
+  transform:scale(0.95);
+  
+}
