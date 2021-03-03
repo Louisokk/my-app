@@ -6,7 +6,7 @@ function Container({ type="ctn", id}){
 
   
   return(
-    <div className={ type } id={id}><img class="gl" src={Gamelogo}></img></div>
+    <div className={ type } id={id}><img className="gl" src={Gamelogo}></img></div>
   )
 
 }
