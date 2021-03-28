@@ -5,10 +5,12 @@ import Footer from "./templates/components/Footer.js"
 import Quickmenu from "./templates/components/Quickmenu.js"
 import { Link } from "react-router-dom"
 import Social from "./templates/components/Social"
+import Register from "./templates/components/Register"
 
 function App() {
   return (
     <div className="App"> 
+      <Register></Register>
       <Header></Header>
       <Quickmenu></Quickmenu>
       <Social></Social>
