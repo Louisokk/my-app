@@ -14,8 +14,8 @@ function Social({open="sc"}){
         <div className={open}>
             <div className="sc-con">
                 <p className="sc-header1">Anmeldung</p>
-                <Input type="ipt socialinput" val="Accountname"></Input><br></br>
-                <Input type="ipt socialinput" val="Passwort"></Input><br></br>
+                <Input type="ipt socialinput" val="Accountname"></Input>
+                <Input type="ipt socialinput" val="Passwort"></Input>
                 <Button val="Anmelden" type="btn socialbutton"></Button>
                 <Button val="Registrieren" type="btn socialbutton" useCase={ openRegister }></Button>
             </div>
